@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
                 pickImageFromGallery()
             }
         }
+
+        open_camera_button.setOnClickListener {
+            
+        }
     }
 
     private fun pickImageFromGallery() {
